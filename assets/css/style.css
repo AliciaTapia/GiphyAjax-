@@ -1,0 +1,32 @@
+
+img{
+	width: 150px;
+	height: 150px;
+}
+
+#questions-section{
+	margin:20px;
+	font-family:  "Myriad", "Myriad Pro", "Helvetica","Segoe UI";
+}
+
+#buttons { /* Typography */ text-align: center;}
+
+button {
+
+  /* Box-model */
+  height: 50px;
+  width: 100px;
+
+}
+
+#display {
+
+  /* Typography */
+  text-align: center;
+  font-size: 20px;
+  
+
+  /* Visual */
+  background: gray;
+  color: pink;
+}
