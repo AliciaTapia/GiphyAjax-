@@ -1,32 +1,52 @@
 
+h1{
+font-family: 'Concert One', cursive;
+font-size: 54px;
+}
+
 img{
 	width: 150px;
 	height: 150px;
 }
 
-#questions-section{
-	margin:20px;
-	font-family:  "Myriad", "Myriad Pro", "Helvetica","Segoe UI";
+body{
+background-image:url(../images/wooden.jpg);
+height: auto;
 }
 
-#buttons { /* Typography */ text-align: center;}
-
-button {
-
-  /* Box-model */
-  height: 50px;
-  width: 100px;
-
-}
-
-#display {
-
-  /* Typography */
+.search{
+  color:#EEEFE5;
+  font-family:'Varela Round';
+  width:90%;
+    height: 200px; 
+    /*border:5px solid;*/
+    float:center;
   text-align: center;
-  font-size: 20px;
-  
+  position:absolute;
+  clear: both;
+  margin-right: 30%;
+  top:30%;
+}
 
-  /* Visual */
-  background: gray;
-  color: pink;
+.submitBtn {
+    width:20%;
+    background-color:#d34c98;
+    height:50px;
+    font-size:33px;
+    font-family: 'MeetMeInBrooklyn-Regular';
+    color:#e6e8bf;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+     -webkit-appearance: none;
+}
+
+#giphy-view{
+  clear: both;
+  width:70%;
+  height: 70%;
+/*border: 5px solid;*/
+    
+    
 }

@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-<meta charset="UTF-8">
-<title>  *** THE GIPHY *** </title>
-  	
-<!--  For responsivnes/media query --><!-- 
+  <meta charset="UTF-8">
+  <title> *** THE GIPHY *** </title>
+
+  <!--  For responsivnes/media query -->
+  <!-- 
 <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<!--  Reset CSS -->
-<!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+  <!--  Reset CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css">
 
-<!-- Bootstrap CSS -->
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
- Fonts from google font (font-family: 'Varela Round', sans-serif;)
-<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> -->
-
-<!-- My CSS -->
-<!-- <link rel="stylesheet" href="assets/css/style.css">-->
-
+  <!-- Bootstrap CSS -->
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+  <!--Fonts from google font (font-family: 'Varela Round', sans-serif;)-->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-
+ 
+    <div class="search">
       <!-- Rendered buttons will get dumped Here  -->
-      <h1> Search your gif </h1>
+      <h1> Let's have some FUN ! </h1>
+      <!--<div id="buttons-view"></div>-->
       <div id="buttons-view"></div>
 
+      <br>
+      <br>
       <form id="giphy-form">
-          <label for="giphy-input">Look for a fun Gif</label>
-          <input type="text" id="giphy-input"><br><br>
-          <!-- Button triggers new GIPHY to be added -->
+        <label for="giphy-input">Type a word TO FIND  a GIPHY</label>
+        <input type="text" id="giphy-input">
+       
+        <br>
+       
+        <br>
+        
+        <!-- Button triggers new GIPHY to be added -->
           <input id="add-giphy" type="submit" value="submit">
       </form>
+   
+     <!-- Giphies will get dumped dere -->
+    <div id="giphy-view"></div>
+  </div>
 
-      <!-- Giphies will get dumped dere -->
-      <div id="giphy-view"></div>
-    
-    </div>
-  </body>
+   
+</body>
+
 </html>
-    
 
 <!-- Adds a link to the Javascript file. Loaded at the bottom so it waits for the HTML content to display first. If you put this at the top it will crash, because the HTML IDs won't exist yet.-->
 
@@ -47,5 +57,3 @@
 
 <!--  javascript link in my assets folder  -->
 <script type="text/javascript" src="assets/javascript/game.js"></script>
-   
- 	

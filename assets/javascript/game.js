@@ -66,7 +66,7 @@ $(document).ready(function() {
          console.log(response); 
 
         
-        for (i=0; i < maxItems; i++){ //<maxItems 
+        for (i=0; i < response.data.length; i++){ //<maxItems 
           var image = $("<img>");
           image.addClass("image");
             image.attr({
